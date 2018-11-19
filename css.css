@@ -1,0 +1,41 @@
+html{
+    background: #018ded url(http://unsplash.it/1500/1000?image=881&blur=50);
+    background-size: cover;
+    font-family: 'helvetica neue';
+    text-align: center;
+    font-size: 10px;
+}
+
+.clock{
+    width: 30rem;
+    height: 30rem;
+    border: 20px solid goldenrod;
+    border-radius: 50%;
+    margin: 50px auto;
+}
+
+.clock-face{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translate(-3px);
+}
+
+.hand{
+    width: 50%;
+    height: 5px;
+    background: silver;
+    position: absolute;
+    top:50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.5s;
+    transition-timing-function: cubic-bezier(0.15, 4.15, 0.27, 1.55);
+}
+
+
+
+
+
+
+}
